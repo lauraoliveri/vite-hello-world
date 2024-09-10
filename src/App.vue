@@ -7,16 +7,19 @@
 */
 // 1) Importazione del componente
 import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
+
 
 export default {
   data() {
     return { 
-      count: 0
+      
     }
   },
   // 2) Dichiarazione del componente
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   },
   methods: {
     
@@ -28,6 +31,7 @@ export default {
   <div>
     <!-- 3) Utilizzo del componente -->
     <AppTitle />
+    <AppHero />
     
     <main>
     
